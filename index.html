@@ -22,7 +22,7 @@
 #000000
 #ED1C24
 #FFFFFF]"><span>0</span><img class="h-[30px]" src="./B12-A5-Emergency-Hotline/assets/heart.png" alt=""></button>
-        <button class="btn btn-active rounded-full"><span>100</span> <img class="h-[30px]" src="./B12-A5-Emergency-Hotline/assets/coin.png" alt=""></button>
+        <button class="btn btn-active rounded-full"><span id="coin-number">100</span> <img class="h-[30px]" src="./B12-A5-Emergency-Hotline/assets/coin.png" alt=""></button>
         <button class="btn btn-active rounded-full font-bold"><span>2</span> Copy </button>
  </div>
     </div>
@@ -37,13 +37,13 @@
 
 
 <!-- final section here -->
-<div class="flex mt-[30px]">
+<div class="flex mt-[30px] bg-[F5FFF6] ">
 
-    <div class="w-3/4  grid grid-cols-3 ">  
+    <div class="w-3/4  grid md:grid-cols-3 grid-cols-2">  
 
-        <div class="card bg-base-100 w-96 shadow-sm">
-  <figure>
-     <div class="h-12 w-12"><img
+        <div class="card bg-base-100 w-60  shadow-sm">
+  <figure class="justify-stard">
+     <div class="h-12 w-12 justify-stard"><img
         class="h-full w-full"
       src="./B12-A5-Emergency-Hotline/assets/emergency.png"
       alt="" /></div>
@@ -53,15 +53,15 @@
     <p>National Emergency</p>
     <p>999</p>
     <div class="card-actions justify-end">
-      <button class="btn btn-primary">All </button>
-      <button class="btn btn-primary">Call</button>
+      <button class="btn w-10 h-10">All </button>
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
 </div>
 
 
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-60 shadow-sm">
   <figure>
    <div class="h-12 w-12"> <img class="h-full w-full"
       src="./B12-A5-Emergency-Hotline/assets/police.png "
@@ -70,16 +70,16 @@
   <div class="card-body">
     <h2 class="card-title">Police Helpline Number</h2>
     <p>Police</p><p>999</p>
-    <div class="card-actions justify-end">
-       <button class="btn btn-primary">Police</button>
-      <button class="btn btn-primary">Call</button>
+    <div class="card-actions justify-stard">
+       <button class="btn w-10">Police</button><br>
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
 </div>
 
 
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-60  shadow-sm">
   <figure>
     <div class="h-12 w-12"><img
       src="./B12-A5-Emergency-Hotline/assets/fire-service.png"
@@ -89,9 +89,10 @@
     <h2 class="card-title">Fire Service Number</h2>
     <p>Fire Service</p>
     <p>999</p>
-    <div class="card-actions justify-end">
-       <button class="btn btn-primary">Fire</button>
-      <button class="btn btn-primary">Call</button>
+    <div class="card-actions justify-stard">
+       <button class="btn w-10 h-10">Fire</button>
+       
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
@@ -99,7 +100,7 @@
 
 
 
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-60 mt-[30px] shadow-sm">
   <figure>
    <div class="h-12 w-12"> <img
       src="./B12-A5-Emergency-Hotline/assets/ambulance.png"
@@ -110,8 +111,8 @@
     <p>Ambulance</p>
     <p>1994-999999</p>
     <div class="card-actions justify-end">
-         <button class="btn btn-primary">Health</button>
-      <button class="btn btn-primary">Call</button>
+         <button class="btn w-10 h-10">Health</button>
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
@@ -119,7 +120,7 @@
 
 
 
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-60 mt-[30px] shadow-sm">
   <figure>
    <div class="h-12 w-12"><img
       src="./B12-A5-Emergency-Hotline/assets/emergency.png"
@@ -130,8 +131,8 @@
     <p>Women & Child Helpline</p>
     <p>109</p>
     <div class="card-actions justify-end">
-          <button class="btn btn-primary">Help</button>
-      <button class="btn btn-primary">Call</button>
+          <button class="btn w-10 h-10">Help</button>
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
@@ -139,7 +140,7 @@
 
 
 
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-60 mt-[30px] shadow-sm">
   <figure>
  <div class="h-12 w-12">   <img
       src="./B12-A5-Emergency-Hotline/assets/ambulance.png"
@@ -150,8 +151,8 @@
     <p>Ambulance</p>
     <p>1994-999999</p>
     <div class="card-actions justify-end">
-        <button class="btn btn-primary">Health</button>
-      <button class="btn btn-primary">Call</button>
+        <button class="btn w-10 h-10">Health</button>
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
@@ -159,7 +160,7 @@
 
 
 
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-60 mt-[30px] shadow-sm">
   <figure>
    <div class="h-12 w-12"> <img
       src="./B12-A5-Emergency-Hotline/assets/emergency.png"
@@ -170,8 +171,8 @@
     <p>Electricity Outage</p>
     <p>16216</p>
     <div class="card-actions justify-end">
-         <button class="btn btn-primary">Electricity</button>
-      <button class="btn btn-primary">Call</button>
+         <button class="btn w-10 h-10">Electricity</button>
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
@@ -180,7 +181,7 @@
 
 
 
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-60 mt-[30px] shadow-sm">
   <figure>
     <div class="h-12 w-12"><img
       src="./B12-A5-Emergency-Hotline/assets/brac.png"
@@ -191,8 +192,8 @@
     <p>Brac</p>
     <p>16445</p>
     <div class="card-actions justify-end">
-        <button class="btn btn-primary">NGO</button>
-      <button class="btn btn-primary">Call</button>
+        <button class="btn w-10 h-10">NGO</button>
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
@@ -201,7 +202,7 @@
 
 
 
-  <div class="card bg-base-100 w-96 shadow-sm">
+  <div class="card bg-base-100 w-60 mt-[30px] shadow-sm">
   <figure>
     <div class="w-12 h-12"><img
       src="./B12-A5-Emergency-Hotline/assets/Bangladesh-Railway.png"
@@ -212,8 +213,8 @@
     <p>Bangladesh Railway</p>
     <p>16445</p>        
     <div class="card-actions justify-end">
-        <button class="btn btn-primary">Travel </button>
-      <button class="btn btn-primary">Call</button>
+        <button class="btn w-10 h-10">Travel </button>
+      <button class="btn btn-primary call-btn">Call</button>
       <button class="btn btn-primary">Copy</button>
     </div>
   </div>
@@ -226,7 +227,21 @@
    
    
    
-    <div class="w-1/4">
+    <div class="w-1/4 bg-[F5FFF6]">
+      
+      <div class="flex justify-between items-center" >
+        <p> Call History</p>
+        <button class="btn btn-primary">Clear</button>
+      </div>
+
+      <div class="flex justify-between items-center my-3  p-3 bg-[F5FFF6] rounded-xl shadow-xl ">
+        <div>
+          <h3>Fire Service Number </h3>
+          <p>999</p>
+        </div>
+      <div>7:00 AM</div>
+      
+      </div>
 
     </div>
 
